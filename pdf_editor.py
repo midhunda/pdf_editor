@@ -1273,8 +1273,7 @@ class PDFEditorApp(ctk.CTk if not DRAG_DROP_AVAILABLE else TkinterDnD.Tk):
     def show_about(self):
         about_text = (
             "PDF Editor\n"
-            "\u00A9 JR-Contract Cell\n"
-            "All rights reserved."
+            "\u00A9 vibbydas\n"
         )
         tk.messagebox.showinfo("About PDF Editor", about_text)
 

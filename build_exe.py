@@ -16,7 +16,9 @@ def main():
         sys.exit(1)
 
     command = [
-        "pyinstaller",
+        sys.executable,
+        "-m",
+        "PyInstaller",
         "--noconsole",
         "--onefile",
         f"--icon={icon_name}",
